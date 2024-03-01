@@ -1,0 +1,10 @@
+the command design pattern is a behavioural design pattern that turn a request into a stand-alone object.
+
+the key idea behind this is to decouple the sender(client) of the request from the reciever, in simple language remove dependency of client from reciever
+
+command
+    -interface for executing a particular operation
+    -typically include 'execute' method
+concrete command
+    -implement command interface
+    -holde a reference to reciever object

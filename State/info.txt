@@ -1,0 +1,13 @@
+state design pattern is a behavioural pattern that allows an object to alter its
+behaviour when its internal state changes
+
+the pattern represents each state of an object as an individual class
+
+example: traffic light
+            -red state
+            -green state
+            -yellow state
+        in this example
+            -traffic light represents the context class
+            -each state is defined in a different class
+            -the behaviour is encapsulated in these classes

@@ -1,0 +1,15 @@
+BOOK MANAGEMENT 
+    Singleton pattern: ensuring that there is only one instance of library class 
+    Observer pattern: notify when a new book is added
+
+BOOK CHECKOUT
+    Startegy pattern: allowing different checkout strategies
+    Users can select their prefered strategy
+
+BOOK RESERVATION
+    State pattern: to represent the state of different books
+    state like available, reservec, checkout
+
+LOGGING 
+    Use the Chain of responsiblity to create a logging  system that can handle 
+    different levels of logging

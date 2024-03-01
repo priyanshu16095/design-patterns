@@ -1,0 +1,9 @@
+Imagine you have a subject (or object) that has some data or information. Now, there are several other objects that are interested in this data and want to be notified whenever there is a change in that data.
+
+Subject (Publisher): This is like a weather station that measures temperature.
+
+Observers (Subscribers): These are like different devices or applications (like a phone app, a TV channel, and a website) that want to know the current temperature.
+
+Subject maintains a list of dependencies
+
+This patter in often used to implement distributed event handling systems
